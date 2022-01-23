@@ -1,0 +1,57 @@
+.labels-circle {
+  border: solid 1px gray;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.singer-card {
+  background-color: #111229;
+  border-radius: 10px;
+}
+
+.gd-box {
+  background: linear-gradient(163.41deg, #301a68 0.11%, #234c97 170.69%);
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  position: absolute;
+  top: -10px;
+  left: 10px;
+  z-index: -10;
+}
+
+.review-card {
+  border: solid 2px orange;
+  box-shadow: 5px -5px #35799a;
+  border-radius: 10px;
+  padding: 20px 15px;
+}
+
+.review-card > div {
+  display: flex;
+}
+
+.review-card img {
+  margin-right: 15px;
+}
+
+.slick-slider .slick-slide {
+  padding: 5px 10px;
+}
+
+.banner-title {
+  font-weight: 500;
+  font-family: "Font Awesome 5 Free";
+}
