@@ -43,6 +43,54 @@ export default function Footer() {
                 </div>
             </div>
             {/* Card End */}
+            {/* Card Start */}
+            <div className='col-lg-3'>
+                <div style={{ position: 'relative' }}>
+                    <MDBCard className='singer-card'>
+                        <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                        <MDBCardBody>
+                            <div>
+                                <p className='m-0 bg-warning px-2 d-inline' style={{
+                                    background: "#E5C558", color: "#682F26"
+                                }}>Falk</p>
+                            </div>
+                            <MDBCardTitle className='text-light my-3'>
+                                Benny Dayal
+                            </MDBCardTitle>
+                            <div className="row">
+                                <div className="col-sm-9"><a href="">More info <MDBIcon fas icon="arrow-right" /></a></div>
+                                <div className="col-sm-3 border-start text-center"><a href=""><MDBIcon fas icon="ticket-alt" /></a></div>
+                            </div>
+                        </MDBCardBody>
+                    </MDBCard>
+                    <div className="gd-box"></div>
+                </div>
+            </div>
+            {/* Card End */}
+            {/* Card Start */}
+            <div className='col-lg-3'>
+                <div style={{ position: 'relative' }}>
+                    <MDBCard className='singer-card'>
+                        <MDBCardImage src='https://mdbootstrap.com/img/new/standard/nature/184.webp' position='top' alt='...' />
+                        <MDBCardBody>
+                            <div>
+                                <p className='m-0 bg-warning px-2 d-inline' style={{
+                                    background: "#E5C558", color: "#682F26"
+                                }}>Falk</p>
+                            </div>
+                            <MDBCardTitle className='text-light my-3'>
+                                Benny Dayal
+                            </MDBCardTitle>
+                            <div className="row">
+                                <div className="col-sm-9"><a href="">More info <MDBIcon fas icon="arrow-right" /></a></div>
+                                <div className="col-sm-3 border-start text-center"><a href=""><MDBIcon fas icon="ticket-alt" /></a></div>
+                            </div>
+                        </MDBCardBody>
+                    </MDBCard>
+                    <div className="gd-box"></div>
+                </div>
+            </div>
+            {/* Card End */}
         </div>
 
         {/* Review Section */}
